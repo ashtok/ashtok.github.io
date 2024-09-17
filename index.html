@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My Portfolio">
-    <title>My Portfolio</title>
+    <meta name="description" content="Ashutosh Mahajan's Portfolio">
+    <title>Ashutosh Mahajan's Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -67,11 +67,20 @@
             text-decoration: none;
         }
     </style>
+    <script>
+        function showSection(id) {
+            var sections = document.querySelectorAll('.section-content');
+            sections.forEach(function(section) {
+                section.classList.remove('active');
+            });
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
 </head>
 <body>
 
 <header>
-    <h1>Welcome to My Portfolio</h1>
+    <h1>Ashutosh Mahajan's Portfolio</h1>
 </header>
 
 <nav>
@@ -84,20 +93,92 @@
 
     <div class="about">
         <h2>About Me</h2>
-        <p>Hello! I’m a passionate developer with experience in web development, project management, and software engineering. I love creating innovative solutions and working on exciting projects. Feel free to browse through my portfolio to learn more about me.</p>
+        <p>Hello! I’m Ashutosh Mahajan, a passionate developer with experience in VR development, game programming, and software engineering. I love creating innovative solutions and working on exciting projects. Feel free to browse through my portfolio to learn more about my work.</p>
         <div class="linkedin">
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Connect with me on LinkedIn</a>
+            <a href="https://www.linkedin.com/in/ashutosh-mahajan-885931156/" target="_blank">Connect with me on LinkedIn</a>
         </div>
     </div>
 
     <div id="resume" class="section-content">
         <h2>Resume</h2>
-        <p>Here is where you would list your work experience, skills, and a summary of your professional career.</p>
+
+        <h3>Technical Skills</h3>
+        <p>C#, Unity, XR Interaction Toolkit, VR Development, Game Programming, Machine Learning, NLP, Generative Modeling, Deep Learning</p>
+
+        <h3>Work Experience</h3>
+        <h4>Working Student – VR Developer</h4>
+        <p><strong>Julius Maximilians University of Würzburg</strong> (_June 2024 - Present_)</p>
+        <ul>
+            <li>Developed a VR app demonstrating non-Euclidean geometry.</li>
+            <li>Optimized tile system with dynamic grouping and interaction mechanics.</li>
+        </ul>
+
+        <h4>Software Development Engineer I</h4>
+        <p><strong>Mobile Premier League Pvt. Ltd.</strong> (_Nov 2021 - Sep 2023_)</p>
+        <ul>
+            <li>Improved client-server communication by 32%, reducing user-reported issues by 37%.</li>
+            <li>Revamped code architecture for 3 mobile games, enhancing game security.</li>
+        </ul>
+
+        <h4>Game Programmer</h4>
+        <p><strong>Cosi Games Pvt. Ltd.</strong> (_Feb 2021 - Oct 2021_)</p>
+        <ul>
+            <li>Developed 60% of the code for a multiplayer football-themed game.</li>
+            <li>Refactored game code to improve readability and reusability.</li>
+        </ul>
+
+        <h3>Education</h3>
+        <h4>Master of Science in Computer Science</h4>
+        <p><strong>Julius Maximilians University of Würzburg, Germany</strong> (_Oct 2023 - Oct 2025_)</p>
+        <p>Key Coursework: Machine Learning for NLP, Computer Vision, AI, Programming Neural Networks, Real-Time Systems, Multimodal Interfaces, VR</p>
+
+        <h4>Bachelor of Technology in Computer Science and Engineering</h4>
+        <p><strong>Kalinga Institute of Industrial Technology, India</strong> (_Jul 2015 - Nov 2019_)</p>
+        <p>Key Coursework: C, C++, Java, Data Structures, OS, Computer Networks, DBMS, Software Engineering</p>
+
     </div>
 
     <div id="projects" class="section-content">
         <h2>Projects</h2>
-        <p>Here is where you would showcase your projects with links to GitHub or live demos of your work.</p>
+
+        <h3>Multimodal Speech and Gesture Recognition for VR</h3>
+        <p><strong>Developed:</strong> April 2024 - August 2024</p>
+        <p>Built a VR Interactive POI Management System in <strong>Unity</strong>, allowing users to interact with maps via speech commands and touch gestures. It features POI selection, distance calculation, and multi-input controls for seamless UX.</p>
+        <p><strong>Tools:</strong> Unity, Speech-to-Text APIs, XR Interaction Toolkit</p>
+        <p><strong>Video:</strong> <a href="#" target="_blank">Project Demo Video</a></p>
+
+        <h3>The Hanging Bridge: VR Exposure Therapy for Fear of Heights</h3>
+        <p><strong>Developed:</strong> Oct 2023 - Feb 2024</p>
+        <p>Designed and developed a VR solution to help users manage height-related anxieties through gradual exposure therapy in a simulated environment.</p>
+        <p><strong>Tools:</strong> Unity, XR Toolkit, Psychology-based Game Design</p>
+        <p><strong>Video:</strong> <a href="#" target="_blank">Project Demo Video</a></p>
+
+        <h3>Run Till You Die: Endless Runner Mobile Game</h3>
+        <p><strong>Developed:</strong> Feb 2021 - Oct 2021</p>
+        <p>Created an endless runner game similar to Temple Run, focusing on high user engagement, dynamic gameplay, and smooth performance across multiple devices.</p>
+        <p><strong>Tools:</strong> Unity, C#, Mobile Game Development, Optimization</p>
+        <p><strong>Video:</strong> <a href="#" target="_blank">Project Demo Video</a></p>
+
     </div>
 
     <div id="education" class="section-content">
+        <h2>Education</h2>
+
+        <h3>Master of Science in Computer Science</h3>
+        <p><strong>Julius Maximilians University of Würzburg, Germany</strong> (_Oct 2023 - Oct 2025_)</p>
+        <p>Key Coursework: Machine Learning for NLP, Computer Vision, AI, Programming Neural Networks, Real-Time Systems, Multimodal Interfaces, VR</p>
+
+        <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+        <p><strong>Kalinga Institute of Industrial Technology, India</strong> (_Jul 2015 - Nov 2019_)</p>
+        <p>Key Coursework: C, C++, Java, Data Structures, OS, Computer Networks, DBMS, Software Engineering</p>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Ashutosh Mahajan. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
