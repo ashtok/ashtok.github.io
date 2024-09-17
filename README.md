@@ -15,20 +15,27 @@
 
 ### Multimodal Speech and Gesture Recognition for VR  
 **Developed:** April 2024 - August 2024  
+
 Built a VR Interactive POI Management System in **Unity**, allowing users to interact with maps via speech commands and touch gestures. It features POI selection, distance calculation, and multi-input controls for seamless UX.  
 _Tools: Unity, Speech-to-Text APIs, XR Interaction Toolkit_
 
 **Video:** [Project Demo Video](#)
 
+---
+
 ### The Hanging Bridge: VR Exposure Therapy for Fear of Heights  
 **Developed:** Oct 2023 - Feb 2024  
+
 Designed and developed a VR solution to help users manage height-related anxieties through gradual exposure therapy in a simulated environment.  
 _Tools: Unity, XR Toolkit, Psychology-based Game Design_
 
 **Video:** [Project Demo Video](#)
 
+---
+
 ### Run Till You Die: Endless Runner Mobile Game  
 **Developed:** Feb 2021 - Oct 2021  
+
 Created an endless runner game similar to Temple Run, focusing on high user engagement, dynamic gameplay, and smooth performance across multiple devices.  
 _Tools: Unity, C#, Mobile Game Development, Optimization_
 
@@ -41,9 +48,12 @@ _Tools: Unity, C#, Mobile Game Development, Optimization_
 <div id="resume">
 <h2>Resume</h2>
 
-#### Technical Skills: C#, Unity, XR Interaction Toolkit, VR Development, Game Programming, Machine Learning, NLP, Generative Modeling, Deep Learning
+#### Technical Skills  
+C#, Unity, XR Interaction Toolkit, VR Development, Game Programming, Machine Learning, NLP, Generative Modeling, Deep Learning
 
-## Education
+---
+
+## Education  
 
 - **Master of Science in Computer Science**  
   Julius Maximilians University of Würzburg, Germany (_Oct 2023 - Oct 2025_)  
@@ -53,7 +63,9 @@ _Tools: Unity, C#, Mobile Game Development, Optimization_
   Kalinga Institute of Industrial Technology, India (_Jul 2015 - Nov 2019_)  
   - Key Coursework: C, C++, Java, Data Structures, OS, Computer Networks, DBMS, Software Engineering
 
-## Work Experience
+---
+
+## Work Experience  
 
 **Working Student – VR Developer**  
 _Julius Maximilians University of Würzburg (June 2024 - Present)_  
@@ -69,14 +81,20 @@ _Cosi Games Pvt. Ltd. (Feb 2021 - Oct 2021)_
 - Developed 60% of the code for a multiplayer football-themed game.  
 - Refactored game code to improve readability and reuse.  
 
-## Projects
+---
+
+## Projects  
 _See the [Projects](#projects) section above for details._  
 
-## Publications
+---
+
+## Publications  
 1. **Mahajan, A.** VR Exposure Therapy: Managing Fears through Immersive Technology (2024)  
 2. **Mahajan, A.** Enhancing VR Geometry Interactions Using Multimodal Interfaces (2024)
 
-## Portfolio & Links
+---
+
+## Portfolio & Links  
 - [GitHub Portfolio](#)  
 - [LinkedIn](https://www.linkedin.com/in/ashutosh-mahajan-885931156/)  
 - [Resume](#)  
@@ -89,7 +107,7 @@ _See the [Projects](#projects) section above for details._
 <div id="blog">
 <h2>Blog</h2>
 
-### Latest Blog Posts
+### Latest Blog Posts  
 
 1. [Navigating VR Development for Beginners](#) - _Published: September 2024_  
 2. [Understanding Game Physics in Unity](#) - _Published: August 2024_  
